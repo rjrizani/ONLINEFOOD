@@ -1,3 +1,43 @@
 .container{
-    background: blue;
+    
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px 30px;
+    background: hsla(0, 0%, 100%, 0.99);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+    box-shadow: 0  0 10px hsla(0, 0%, 100%, 0.05);
+    z-index: 5;
+}
+
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav{
+    position: static;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 30px;
+}
+
+.nav-link{
+    color: black;
+    font-size: 22px;
+    transition: all 1s ease-out;
+}
+
+.nav-link:hover{
+    color: orange;
 }

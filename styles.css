@@ -1,5 +1,9 @@
 .container{
-    
+    position: relative;
+    max-width: 1440;
+    margin: auto;
+    background: white;
+    overflow: hidden;
 }
 
 .navbar{
@@ -40,4 +44,54 @@
 
 .nav-link:hover{
     color: orange;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.food-img{
+    position: absolute;
+    width: 60%;
+}
+
+.food-1{
+    top: 25%;
+    left: -4%;
+
+}
+
+.food-2{
+    top: 7%;
+    right: -4%;
+}
+
+.food-3{
+    top: 40%;
+    right: -10%;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+.home-left{
+    
+    
+}
+
+.home-left p {
+display: inline-block;
+}
+
+.home-right{
+    position: relative;
 }

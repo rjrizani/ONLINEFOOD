@@ -95,3 +95,7 @@ display: inline-block;
 .home-right{
     position: relative;
 }
+
+img{
+    display: block;
+}
